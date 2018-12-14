@@ -1,0 +1,109 @@
+
+body {
+    padding-top: 50px;
+	background-color : #0066ff;
+}
+label{
+	
+	color:#0066ff;
+	font-family : times;
+}
+#sidebar-wrapper h4{
+
+    padding-left: 10px;
+    color:#FF9900;
+    font-weight:normal;
+
+}
+
+#myInput { 
+    width: 50%; 
+    float: right;
+}
+
+#sid{
+    width:500px;
+}
+
+#main{
+    padding-top: 50px;
+	
+}
+
+#sidebar-wrapper{
+    z-index:1;
+    position: fixed;
+    width:0;
+    height:93%;
+    overflow-x:hidden;
+    background: #000000;
+    border:2px solid #0066ff;
+    opacity: 1;
+}
+#box{
+	height : 50%;
+    background: white;
+    border:2px solid #000000;
+    opacity: 1;	
+	overflow: auto;
+	color : black;
+}
+#page-content-wrapper #header{
+    width:100%;
+    position:absolute;
+    padding: 15px;
+    border : 5px solid #ffff66;
+}
+
+#wrapper.menuDisplayed #sidebar-wrapper{
+    width :280px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left : 280px;
+
+}
+
+#header{
+
+    border:2px solid #ffff66;
+}
+
+#map{ 
+	height: 600px;
+	border:2px solid #0066ff;	
+}
+.sidebar-nav{
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li{
+    text-indent:20px;
+    line-height:40px;
+}
+
+.sidebar-nav li a{
+    display: block;
+    text-decoration: none;
+    color:#ddd;
+}
+
+.sidebar-nav li a:hover{
+    background:#FF9900;
+}
+
+.navbar {
+    background-color : #000000;
+    margin-bottom: 0;
+
+	border: 3px solid #0066ff;
+}
+.fixed-panel{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.btn-success{
+	background-color: #00ff99 !important;
+	color : #0066ff !important;
+}
