@@ -48,23 +48,22 @@ Smart Navigation App that steers you clear during disasters
   classify.ipynb : It takes in the trained model and segments the roads from pre and post disaster satellite images
   #### Pre Disaster
   ##### Satellite Image
-  ![pre sat](https://github.com/KiruthikaAdhi/safe-route-finder/blob/master/preDisaster/channelviewPre.jpg?raw=true)
+  ![pre sat](https://github.com/KiruthikaAdhi/disasteer/blob/master/cvpre.png?raw=true)
   
   ##### Extracted Road Segment
-  ![pre road](https://github.com/KiruthikaAdhi/safe-route-finder/blob/master/classify_output/channelviewPreRoad.jpeg?raw=true)
+  ![pre road](https://github.com/KiruthikaAdhi/disasteer/blob/master/classify_output_channelviewPre.png?raw=true)
   
   #### Post Disaster
   ##### Satellite Image
-  ![post sat](https://github.com/KiruthikaAdhi/safe-route-finder/blob/master/postDisaster/channelview.jpg?raw=true)
-  
+![post road](https://github.com/KiruthikaAdhi/disasteer/blob/master/cvpost.png?raw=true)
+ 
+      
   ##### Extracted Road Segment
-  ![post road](https://github.com/KiruthikaAdhi/safe-route-finder/blob/master/classify_output/channelviewPostRoad.jpeg?raw=true)
+  ![post road](https://github.com/KiruthikaAdhi/disasteer/blob/master/classify_output_channelviewPost.png?raw=true)
   
   ### Damage Road detection
   damageRoadDetector.ipynb : The two road segments are compared and the difference between the roads is detected as damaged road.
   
   #### Difference between pre and post disaster road segments
-  ![diff](https://github.com/KiruthikaAdhi/safe-route-finder/blob/master/damageRoad.jpeg?raw=true)
+  ![diff](https://github.com/KiruthikaAdhi/disasteer/blob/master/damageRoad.jpeg)
   
-  #### Overlay on the Post Disaster Image
-  ![overlay](https://github.com/KiruthikaAdhi/safe-route-finder/blob/master/overlayDamagedRoad.jpeg?raw=true)
