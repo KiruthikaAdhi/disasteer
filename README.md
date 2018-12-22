@@ -9,7 +9,8 @@ Smart Navigation App that steers you clear during disasters
   1) It can be used by Motorists to find damage road and take a safe route which is not damaged, thus it saves lives of the motorists.
   2) It can be used by Emergency responders to efficiently operate their disaster relief operations by avoiding the damaged roads and reach people in need quickly.
   3) It can be used by Government Officials to reconstruct and repair damaged roads thus helping in disaster recovery.
-  
+## SYSTEM ARCHITECTURE :
+![sys_arch](https://github.com/KiruthikaAdhi/disasteer/blob/master/SystemArchitecture.png?raw=true)
 ## IMPLEMENTATION : 
    The solution we propose is feasible and efficient in the following ways : 
    1) The application depends only on satellite images which is readily available during disasters
